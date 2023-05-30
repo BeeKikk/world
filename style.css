@@ -1,0 +1,22 @@
+.dbk {
+    overflow: hidden;
+  }
+  
+  .kiko {
+    background: url("https://aygun.com/_nuxt/WORLD3-01.4ed89fa8.png") repeat-x;
+   animation-duration: 22s;
+      -webkit-animation-duration: 25s;
+      animation-iteration-count: infinite;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: rotate;
+      -webkit-animation-name: rotate;
+      animation-timing-function: linear;
+      -webkit-animation-timing-function: linear;
+      background-size: 1000px;
+      border-radius: 50%;
+      box-shadow: inset 8px 10px 90px 10px #000, inset -6px 0 12px 4px #fff;
+      height: 500px;
+      width: 500px;
+  }
+  
+  @keyframes rotate{0%{background-position:0 0}to{background-position:1000px 0}}
